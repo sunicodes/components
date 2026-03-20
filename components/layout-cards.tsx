@@ -31,7 +31,7 @@ const LayoutCards = () => {
   const ref = useOutSideClick(() => {
     setCurrent(null);
 
-    if (audioRef) {
+    if (audioRef.current) {
       audioRef.current.pause();
     }
   });
@@ -152,11 +152,12 @@ const cards: Card[] = [
     content: () => {
       return (
         <p className="text-[10px] text-neutral-500">
-          Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-          her melancholic and cinematic music style. Born Elizabeth Woolridge
-          Grant in New York City, she has captivated audiences worldwide with
-          her haunting voice and introspective lyrics. <br /> <br /> Her songs
-          often explore themes of tragic romance, glamour, and melancholia,
+          “Love Me Not” is a moody and emotionally charged track that captures
+          the complexity of uncertain relationships and unreciprocated feelings.
+          With its soft melodies and introspective tone, the song creates a
+          haunting and reflective atmosphere. <br /> <br /> It explores themes
+          of longing, self-doubt, and the fear of not being enough, resonating
+          with listeners through its raw emotion and relatable storytelling.
         </p>
       );
     },
@@ -170,11 +171,11 @@ const cards: Card[] = [
     content: () => {
       return (
         <p className="text-[10px] text-neutral-500">
-          Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-          her melancholic and cinematic music style. Born Elizabeth Woolridge
-          Grant in New York City, she has captivated audiences worldwide with
-          her haunting voice and introspective lyrics. <br /> <br /> Her songs
-          often explore themes of tragic romance, glamour, and melancholia,
+          The Ronettes, an iconic American girl group of the 1960s, were known
+          for their distinctive sound and powerful vocals led by Ronnie Spector.
+          Produced by Phil Spector, their music became a defining part of the
+          era’s pop landscape. <br /> <br /> “Be My Baby” is their most famous
+          song, celebrated for its timeless melody and emotional depth.
         </p>
       );
     },
@@ -188,11 +189,13 @@ const cards: Card[] = [
     content: () => {
       return (
         <p className="text-[10px] text-neutral-500">
-          Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-          her melancholic and cinematic music style. Born Elizabeth Woolridge
-          Grant in New York City, she has captivated audiences worldwide with
-          her haunting voice and introspective lyrics. <br /> <br /> Her songs
-          often explore themes of tragic romance, glamour, and melancholia,
+          Vance Joy, an Australian singer-songwriter. Born James Gabriel
+          Keogh in Melbourne, he gained worldwide recognition with his
+          distinctive voice and acoustic style. <br /> <br /> “Riptide” is his
+          breakthrough hit, blending ukulele-driven melodies with quirky and
+          poetic lyrics. The song explores themes of love, insecurity, and
+          admiration, creating a nostalgic and uplifting vibe that resonates
+          with listeners across the globe.
         </p>
       );
     },
@@ -206,11 +209,12 @@ const cards: Card[] = [
     content: () => {
       return (
         <p className="text-[10px] text-neutral-500">
-          &quot;Aawarapan&quot;, a Bollywood movie starring Emraan Hashmi, is
-          renowned for its intense storyline and powerful performances. Directed
-          by Mohit Suri, the film has become a significant work in the Indian
-          film industry. <br /> <br /> The movie explores themes of love,
-          redemption, and sacrifice, capturing the essence of human emotions.
+          NEIKED, a Swedish music project led by producer Victor Rådström, is
+          known for blending pop, electronic, and indie influences into catchy
+          and modern sounds. Their collaborations often feature unique vocals
+          and fresh production styles. <br /> <br /> The song captures
+          the feeling of moving effortlessly through life, embracing freedom,
+          positivity, and the beauty of simply going with the flow.
         </p>
       );
     },
@@ -224,11 +228,13 @@ const cards: Card[] = [
     content: () => {
       return (
         <p className="text-[10px] text-neutral-500">
-          Led Zeppelin was an English rock band formed in London in 1968. The
-          group consisted of vocalist Robert Plant, guitarist Jimmy Page,
-          bassist/keyboardist John Paul Jones, and drummer John Bonham. <br />{" "}
-          <br /> Their music is renowned for its innovative fusion of blues,
-          hard rock, and folk.
+          Lauv, an American singer-songwriter, is widely recognized for his
+          emotionally driven pop music and relatable lyrics. Born Ari Staprans
+          Leff in California, he gained global popularity with his introspective
+          songwriting and modern sound. <br /> <br /> “I Like Me Better” is one
+          of his most iconic songs, exploring themes of young love,
+          self-discovery, and the feeling of becoming a better version of
+          yourself when you are with someone special
         </p>
       );
     },
